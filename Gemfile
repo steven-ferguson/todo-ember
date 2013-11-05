@@ -9,6 +9,7 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 1.2'
 gem 'ember-rails'
 gem 'ember-source'
+gem 'ember-data-source', '~>1.0.0.beta2'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
