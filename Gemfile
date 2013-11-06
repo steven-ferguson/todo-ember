@@ -11,6 +11,15 @@ gem 'ember-rails'
 gem 'ember-source'
 gem 'ember-data-source', '~>1.0.0.beta2'
 
+group :test, :development do 
+  gem 'rspec-rails'
+end
+
+group :test do 
+  gem 'shoulda-matchers'
+  gem 'factory_girl_rails'
+end
+
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
