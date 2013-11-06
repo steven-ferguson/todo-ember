@@ -7,5 +7,10 @@ describe Todo do
     todo = FactoryGirl.create(:todo, :is_completed => nil)
     todo.is_completed.should eq false
   end
+
+  it 'sets the priority to 5 on create' do 
+    todo = FactoryGirl.create(:todo, :priority => nil)
+    todo.priority.should eq 5
+  end
 end
 
