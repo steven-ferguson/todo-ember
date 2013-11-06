@@ -13,6 +13,7 @@ gem 'ember-data-source', '~>1.0.0.beta2'
 
 group :test, :development do 
   gem 'rspec-rails'
+  gem 'pry'
 end
 
 group :test do 
